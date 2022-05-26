@@ -1,0 +1,84 @@
+/* global reset - I don't want CSS automatically adding margins to my elements, I'd rather add them myself and have full control */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* CHANGE FONT SIZES IF YOU WISH */
+/* CHANGE THE SPECIFIC SHADES OF BLUE, WHITE AND GREY IF YOU WISH */
+
+.main-heading-above-image {
+  font-weight: bold;
+  font-size: 48px;
+  color: rgb(84, 81, 81);
+  text-align: center;
+  /* CHANGE FONT SO THAT IT'S CONSISTENT WITH OTHER ELEMENTS ON WEBPAGE */
+}
+
+.container-1 {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(84, 81, 81);
+  border: 5px solid white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+.container-2 {
+  height: 340px;
+  width: 340px;
+  background-color: rgb(28, 28, 107);
+  border: 5px solid white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container-3 {
+  height: 280px;
+  width: 280px;
+  background-color: rgb(28, 28, 107);
+  border: 5px solid white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container-4{
+  height: 220px;
+  width: 220px;
+  background-color: rgb(28, 28, 107);
+  border: 5px solid white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container-5 {
+  height:70px;
+  width: 120px;
+  border: 5px solid white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#coming-soon-box {
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+   /* CHANGE FONT SO THAT IT'S CONSISTENT WITH OTHER ELEMENTS ON WEBPAGE */
+}
+
+#gibberish-paragraph {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+   /* CHANGE FONT SO THAT IT'S CONSISTENT WITH OTHER ELEMENTS ON WEBPAGE */
+}
